@@ -1,0 +1,42 @@
+{
+  "name": "prizm-js-toolkit",
+  "version": "0.0.0",
+  "homepage": "https://github.com/prizm-labs/js-game-sdk",
+  "authors": [
+    "Michael Garrido <michael.a.garrido@gmail.com>"
+  ],
+  "description": "Toolkit for creating game clients entirely in JavaScript",
+  "main": "package.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals"
+  ],
+  "keywords": [
+    "js",
+    "game",
+    "client",
+    "sdk"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gsap": "~1.15.0",
+    "jplayer": "~2.9.2",
+    "victor": "~0.2.6",
+    "three.js": "*",
+    "hammerjs": "~2.0.4",
+    "lil-uuid": "~0.1.0",
+    "pubsubjs": "~0.3.7",
+    "lodash": "~2.4.1",
+    "store": "~2.1.6",
+    "moment": "~2.8.4"
+  }
+}
